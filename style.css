@@ -1,0 +1,536 @@
+body{
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* NAVIGATION BAR */
+
+h1{
+    color: #4aaaa5;
+    text-align: left;
+    margin: 0;
+}
+
+.navigation-bar{
+    width: 100%;
+    color: #666666;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    position: fixed;                     
+    top: 0;
+    left: 0;
+}
+
+a#logo{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-decoration: none;
+    line-height:25px;
+    text-align: center;
+    font-size: 25px; 
+    padding: 1.5%;
+    margin: 0% 0% 0% 12%;
+    }
+
+nav{
+    font-size: 14px;
+    height: 35px;
+    float: right;
+    padding: 0;
+    margin: 1% 12% 0% 0%;
+}   
+
+
+/* FOOTER */
+
+footer{
+    padding: 10px;
+    color: #ffffff;
+    font-size: 10px;
+    width: 100%;
+    height: 30px;
+    background-color: #666666;
+    border-top: 5px solid  #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.foot{
+    text-align: center;
+}
+
+
+/* INDEX - ABOUT ME */   
+
+.container{
+    text-align: left;
+    padding: 1%;
+    width: 75%; 
+    height: 550px;
+    color: #777777;
+    background-color: #ffffff;
+    position: absolute;
+    top: 60px;
+    left: 150px;   
+}
+
+.auth-image{
+     width: 150px;
+     height: 200px;
+     float: left;
+     padding: 5px;
+     margin: 5px;
+    }
+
+/* CONTACT */
+
+#contact-form{
+    color: #777777;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 5px;
+    }    
+    
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#name,#email{
+    width: 70%;
+    height: 25px;
+}
+
+#message{
+    width: 70%;
+    height: 150px;
+}
+
+#submit{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+
+/* PORTFOLIO*/
+
+img{
+    width: 170px;
+    height: 150px;
+}
+
+.row1{
+    left: 5px;
+    width: 100%;
+    height: 170px;
+}
+
+.row2{
+    left: 5px;
+    width: 100%;
+    height: 170px;
+}
+
+.row3{
+    left: 5px;
+    width: 100%;
+    height: 170px;
+}
+p#hangman,#rpg,#trivia,#rutgers,#rock{         
+    color:  #ffffff;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background-color:  #4aaaa5;
+    }
+
+.hangman{
+    float: left;
+    padding: 5px;
+    position: relative;
+    }    
+
+p#hangman{                      
+    position: absolute;
+    left: 5px;
+    top: 90px;
+    }
+
+.rpg{
+    float: left;
+    padding: 5px;
+    position: relative;
+    }    
+
+p#rpg{                          
+        position: absolute;
+        left: 5px;
+        top: 90px;
+    }
+
+.trivia{
+        float: left;
+        padding: 5px;
+        position: relative;
+    }    
+    
+    p#trivia{                        
+        position: absolute;
+        left: 5px;
+        top: 90px;
+        
+    }
+    
+.rutgers{
+        float: left;
+        padding: 5px;
+        position: relative;
+    }    
+    
+    p#rutgers{
+        position: absolute;
+        left: 5px;
+        top: 90px;
+        }
+        
+.rock{
+    float: left;
+    padding: 5px;
+    position: relative;
+    }    
+            
+    p#rock{                           
+    position: absolute;
+    left: 5px;
+    top: 90px;
+    }
+
+
+/*-----------------------------------------------Media Queries @640px-----------------------------------------*/
+  
+
+@media screen and (max-width: 640px){
+    
+    a#logo{
+        line-height:20px;
+        font-size: 20px; 
+        padding: 1.5%;
+        margin: 0% 0% 0% 12%;
+        }
+    
+    nav{
+        font-size: 12px;
+        height: 25px;
+        float: right;
+        padding: 0;
+        margin: 2% 12% 0% 0%;
+    }   
+
+    footer{
+        padding: 10px;
+        font-size: 10px;
+        height: 30px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    
+       
+    /* INDEX - ABOUT ME */   
+    
+    .container{
+        font-size: 12px;
+        padding: 1%;
+        width: 75%; 
+        height: 440px;
+        position: absolute;
+        top: 40px;
+        left: 50px;   
+    }
+    
+    .auth-image{
+         width: 100px;
+         height: 130px;
+         float: left;
+         padding: 5px;
+         margin: 5px;
+        }
+    
+    /* CONTACT */
+    
+    #contact-form{
+        color: #777777;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 5px;
+        }    
+     
+     
+    /* PORTFOLIO*/
+    
+    img{
+        width: 130px;
+        height: 130px;
+    }
+    
+    .row1{
+        left: 5px;
+        width: 100%;
+        height: 135px;
+    }
+    
+    .row2{
+        left: 5px;
+        width: 100%;
+        height: 135px;
+    }
+    
+    .row3{
+        left: 5px;
+        width: 100%;
+        height: 135px;
+    }
+    p#hangman,#rpg,#trivia,#rutgers,#rock{         
+        width: 130px;
+        height: 25px;
+        line-height: 25px;
+        }
+    
+    .hangman{
+        float: left;
+        padding: 2px;
+        position: relative;
+        }    
+    
+    p#hangman{                      
+        position: absolute;
+        left: 1px;
+        top: 90px;
+        }
+    
+    .rpg{
+        float: left;
+        padding: 2px;
+        position: relative;
+        }    
+    
+    p#rpg{                          
+            position: absolute;
+            left: 1px;
+            top: 90px;
+        }
+    
+    .trivia{
+            float: left;
+            padding: 2px;
+            position: relative;
+        }    
+        
+        p#trivia{                        
+            position: absolute;
+            left: 1px;
+            top: 90px;
+        }
+        
+    .rutgers{
+            float: left;
+            padding: 2px;
+            position: relative;
+        }    
+        
+        p#rutgers{
+            position: absolute;
+            left: 1px;
+            top: 90px;
+            }
+            
+    .rock{
+        float: left;
+        padding: 2px;
+        position: relative;
+        }    
+                
+        p#rock{                           
+        position: absolute;
+        left: 1px;
+        top: 90px;
+        }
+
+}
+
+/*-----------------------------------------------Media Queries @768px-----------------------------------------*/
+
+@media screen and (max-width: 768px){
+
+    a#logo{
+        line-height:23px;
+        font-size: 23px; 
+        padding: 1.5%;
+        margin: 0% 0% 0% 10%;
+        }
+    
+    nav{
+        font-size: 12px;
+        height: 25px;
+        float: right;
+        padding: 0;
+        margin: 2% 13% 0% 0%;
+    }   
+
+    footer{
+        padding: 10px;
+        font-size: 10px;
+        height: 30px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    
+       
+    /* INDEX - ABOUT ME */   
+    
+    .container{
+        font-size: 14px;
+        padding: 1%;
+        width: 75%; 
+        height: 540px;
+        position: absolute;
+        top: 50px;
+        left: 70px;   
+    }
+    
+    .auth-image{
+         width: 130px;
+         height: 150px;
+         float: left;
+         padding: 5px;
+         margin: 5px;
+        }
+    
+    /* CONTACT */
+    
+    #contact-form{
+        font-size: 14px;
+        line-height: 16px;
+        padding: 5px;
+        }    
+     
+     
+    /* PORTFOLIO*/
+    
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .row1{
+        left: 5px;
+        width: 100%;
+        height: 160px;
+    }
+    
+    .row2{
+        left: 5px;
+        width: 100%;
+        height: 160px;
+    }
+    
+    .row3{
+        left: 5px;
+        width: 100%;
+        height: 160px;
+    }
+    p#hangman,#rpg,#trivia,#rutgers,#rock{         
+        width: 150px;
+        height: 25px;
+        line-height: 25px;
+        }
+    
+    .hangman{
+        float: left;
+        padding: 2px;
+        position: relative;
+        }    
+    
+    p#hangman{                      
+        position: absolute;
+        left: 1px;
+        top: 90px;
+        }
+    
+    .rpg{
+        float: left;
+        padding: 2px;
+        position: relative;
+        }    
+    
+    p#rpg{                          
+            position: absolute;
+            left: 1px;
+            top: 90px;
+        }
+    
+    .trivia{
+            float: left;
+            padding: 2px;
+            position: relative;
+        }    
+        
+        p#trivia{                        
+            position: absolute;
+            left: 1px;
+            top: 90px;
+        }
+        
+    .rutgers{
+            float: left;
+            padding: 2px;
+            position: relative;
+        }    
+        
+        p#rutgers{
+            position: absolute;
+            left: 1px;
+            top: 90px;
+            }
+            
+    .rock{
+        float: left;
+        padding: 2px;
+        position: relative;
+        }    
+                
+        p#rock{                           
+        position: absolute;
+        left: 1px;
+        top: 90px;
+        }
+
+
+
+
+
+
+
+}  
+
+/*-----------------------------------------------Media Queries @980px-----------------------------------------*/
+
+@media screen and (max-width: 980px){}   
+ 
+
+
+
+
+
+
+
+
+
+
